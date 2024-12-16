@@ -1,0 +1,32 @@
+.error-info
+{
+	text-align: start;
+    color: #FF4B2B;
+    /* padding-right: 184px; */
+    position: relative;
+    top: -14px;
+    left: 4px;
+}
+
+
+.error{
+	color: #af4242;
+	background-color: #fde8ec;
+	padding: 10px;
+	display: none;
+	transform: translateY(-20px);
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.success{
+	margin-bottom: 30px;
+	color: green;
+	background-color: #d2ffd2;
+	padding: 10px;
+	display: none;
+	font-size: 16px;
+}
+.success.display-success{
+	display: block;
+}
+
